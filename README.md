@@ -40,9 +40,18 @@ mirai需要openjdk而不是甲骨文的jdk,如下载openjdk15/openjdk11
 服务,自己部署服务
 ## 3 使用
 ### 1.克隆
- 克隆此仓库，直接克隆或
+ 克隆此仓库
+ 
+ · 直接克隆
+
+ · CIL
 ```
 > gh repo clone CodeMzt/Toppahs
+```
+
+ · GIT BUSH
+```
+$ git clone git@github.com:CodeMzt/Toppahs.git
 ```
 >如果仅是使用可以直接前往[Releases](https://github.com/CodeMzt/Toppahs/releases)下载jar包，并跳过第2、3步
 ### 2.配置
