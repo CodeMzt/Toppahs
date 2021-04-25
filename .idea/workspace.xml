@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e89fad-20a8-4d6b-a62f-60458d3a482f" name="默认变更列表" comment="Initial commit" />
+    <list default="true" id="77e89fad-20a8-4d6b-a62f-60458d3a482f" name="默认变更列表" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble222.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble333.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble333bf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble333fm.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble333ft.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble333oh.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble444.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble444bf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble555.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble555bf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble666.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramble777.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scrambleclock.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scrambleminx.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramblepyram.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scrambleskewb.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/scramblesq1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/wcaGet.obj" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619314890478</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial commit">
+      <created>1619321972303</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619321972303</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
