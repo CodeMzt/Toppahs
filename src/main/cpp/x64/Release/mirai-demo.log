@@ -1,0 +1,127 @@
+﻿  pch.cpp
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(61,40): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(62,75): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(62,42): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(68,42): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(74,40): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(75,43): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(80,42): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(87,35): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(86,42): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(88,40): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(91,35): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(90,37): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(99,35): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(98,42): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(100,40): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(103,35): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\pch.cpp(102,38): warning C4244: “参数”: 从“Json::Value::LargestUInt”转换到“unsigned long”，可能丢失数据
+  code.cpp
+  dllmain.cpp
+  jsoncpp.cpp
+  Procession.cpp
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 jsoncpp.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 Procession.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(32,50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(35,50): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(50,44): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(86,50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 code.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(101,44): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(145,54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(344,49): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(346,31): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(349,54): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(351,51): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 dllmain.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\code.cpp(63,49): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\code.cpp(158,22): warning C4244: “初始化”: 从“__int64”转换到“unsigned char”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\code.cpp(159,22): warning C4244: “初始化”: 从“__int64”转换到“unsigned char”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(658,33): warning C4244: “=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(659,36): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\Procession.cpp(669,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  tools.cpp
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(387,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(393,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(424,53): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(433,48): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(465,52): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(471,47): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(506,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(539,36): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(564,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(593,35): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow) (编译源文件 tools.cpp)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(7,40): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(7,42): warning C5043: Config::Init: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(51): message : 参见“Config::Init”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(75,39): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(75,41): warning C5043: Logger::init: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(14): message : 参见“Logger::init”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(174,41): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(174,43): warning C5043: Friend::init: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(384): message : 参见“Friend::init”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(190,42): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(190,43): warning C5043: Member::init: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(415): message : 参见“Member::init”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(201,50): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(201,52): warning C5043: Member::getPermission: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(417): message : 参见“Member::getPermission”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(211,78): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(211,80): warning C5043: Member::Mute: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(450): message : 参见“Member::Mute”的声明
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(229,69): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.cpp(229,71): warning C5043: Member::Kick: 异常规范与前面的声明不匹配
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\tools.h(452): message : 参见“Member::Kick”的声明
+    正在创建库 G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\x64\Release\mirai-demo.lib 和对象 G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\x64\Release\mirai-demo.exp
+  正在生成代码
+  1514 of 1530 functions (99.0%) were compiled, the rest were copied from previous compilation.
+    113 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  mirai-demo.vcxproj -> G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\x64\Release\mirai-demo.dll

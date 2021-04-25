@@ -1,0 +1,2 @@
+G:\文档\qqBot\cubeBotProject\cpp\x64\Release\mirai-demo.dll
+G:\文档\qqBot\cubeBotProject\toppahs\.run\data\miraiCP\cpp\x64\Release\mirai-demo.dll
