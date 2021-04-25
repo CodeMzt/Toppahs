@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 # 说明
-本项目基于[mirai](https://github.com/mamoe/mirai)框架开发，运用双语言（Kotlin&C++）编写，采用[MIT](https://github.com/CodeMzt/Toppahs/blob/master/LICENSE)开源
+本项目基于[mirai](https://github.com/mamoe/mirai)框架开发，运用双语言（Kotlin&C++）编写，采用```MIT```[许可](https://github.com/CodeMzt/Toppahs/blob/master/LICENSE)开源
 
 本项目基本全开源，可能有少部分由于未整理完未开源，敬请期待
 >C++部分的编写基于[MiraiCP](https://github.com/Nambers/MiraiCP)
