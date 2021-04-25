@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/Procession.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/code.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/constants.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/resource.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/tools.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/.run/data/miraiCP/cpp/tools.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/cpp/Procession.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/cpp/code.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/cpp/resource.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/plugin/wca/WcaResultGet.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/kotlin/com/codemzt/toppahs/test/Main.kt" charset="UTF-8" />
+  </component>
+</project>
