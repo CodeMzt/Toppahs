@@ -1,2 +1,0 @@
-#@CodeMzt
-#在此处写mirai-demo.dll绝对路径

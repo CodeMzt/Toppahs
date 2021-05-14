@@ -7,4 +7,5 @@ pluginManagement {
         maven("https://dl.bintray.com/kotlin/kotlin-eap")
     }
 }
-rootProject.name = "toppahs-codemzt"
+//这里改生成的插件名称
+rootProject.name = "Toppahs"
