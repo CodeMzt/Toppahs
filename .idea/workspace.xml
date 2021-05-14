@@ -5,384 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f19f9438-2bcf-4b29-8225-e7491cbb0d0f" name="默认变更列表" comment="项目重构，底层基本完成">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/dao/DataProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/entity/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/jdbc/Mysql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Prefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/CompetitionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/ExpressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/GroupAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/LeaveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/RereadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/ScramblesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/SwitchesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/TranslateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WcaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WelcomeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/toppahs__shadowJar_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Initial_commit/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在rebase之前未提交的更改_[默认变更列表]/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_4_18_10_43_取消提交了变更_[默认变更列表]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_4_18_10_52_取消提交了变更_[默认变更列表]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_4_24_20_37_取消提交了变更_[默认变更列表]/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_4_24_21_27_取消提交了变更_[默认变更列表]/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/默认变更列表/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/默认变更列表1/cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/1038292395/cache/servers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/1038292395/cache/session.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/1038292395/device.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/1038292395/logs/2021-04-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/1038292395/logs/2021-04-24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/123456789/device.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/123456789/logs/2021-04-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/bots/123456789/logs/2021-04-24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/config/Console/AutoLogin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/config/Console/Command.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/config/Console/ExtensionSelector.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/config/Console/Logger.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/config/Console/PermissionService.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/data/miraiCP/mirai-demo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/data/miraiCP/miraicp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/plugins/miraiCP-2.4.3.mirai.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/20210405_14824363968770817223.compiler.options" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/20210405_6525829282634893220.compiler.options" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/20210411_675484169767299104.compiler.options" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/20210425_7967503314186491213.compiler.options" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/toppahs-codemzt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/config/ServiceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/PluginMain$onEnable$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/PluginMain$onEnable$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/PluginMain$onEnable$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/PluginMain$onEnable$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/PluginMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/ToppahsEntrance$goTo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/ToppahsEntrance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/main/ToppahsEntranceKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/plugin/cube/Cube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/plugin/cube/scrambles/Scrambles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/plugin/wca/PersonInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/codemzt/toppahs/plugin/wca/WcaResultGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/com/toppahs/codemzt/config/ToppahsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/toppahs-codemzt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/com/codemzt/toppahs/test/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/org/example/mirai/plugin/RunMiraiKt$$$main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/org/example/mirai/plugin/RunMiraiKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/org/example/mirai/plugin/RunMiraiKt$main$bot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/org/example/mirai/plugin/RunMiraiKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/toppahscodemzt010jar-classes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/toppahs-codemzt-0.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mirai/toppahs-codemzt-0.1.0.mirai.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/buildPlugin/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_12094122210353854218_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/cpp/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/cpp/v16/Browse.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/Browse.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/8256ea1025577f14.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/940dd29f4f6ccc7b.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/1140fb879de59186/CODE.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/19a0603e8e549555/SCRAMBLE222.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/4ae87644e9511e04/SCRAMBLESQ1.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/55155478681ad38a/PROCESSION.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/63720c226e1351e0/PROCESSION.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/65f446c45342d2eb/SCRAMBLESKEWB.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/6e09f8fcc3b4e3ae/DLLMAIN.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/71394087705a552b/PROCESSION.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/abc39e0c6572c03/SCRAMBLE.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/bfc767bad33869b6/PROCESSION.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/AutoPCH/e0078a31207d7af9/FORMULAGETCSTIMER.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/mirai-demo/v16/ipch/f98f9c67ed7e1c0c.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/Procession.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/bin/curl.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/bin/libcurl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/code.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/code.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/cpp.hint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/dllmain.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/classfile_constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/jawt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/jdwpTransport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/jni.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/jvmti.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/jvmticmlr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/bridge/AccessBridgeCallbacks.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/bridge/AccessBridgeCalls.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/bridge/AccessBridgeCalls.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/bridge/AccessBridgePackages.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/jawt_md.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/include/win32/jni_md.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/json/json-forwards.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/json/json.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/jsoncpp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mbot.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.aps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/mirai-demo.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/org_example_mirai_plugin_CPP_lib.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/org_example_mirai_plugin_CPP_lib_Companion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/pch.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/pch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/resource.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/tools.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/tools.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/Procession.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/code.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/dllmain.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/getFormula.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/jsoncpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.dll.recipe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.iobj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.ipdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.lib.recipe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/Lib-link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/Lib-link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/Lib.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/link.delete.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/mirai-demo.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/mirai-demo.write.1u.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/rc.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/rc.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.tlog/rc.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/mirai-demo.vcxproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/pch.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/tools.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/x64/Release/vc142.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/config/ServiceConfig.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/config/ToppahsConfig.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/main/PluginMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/main/ToppahsEntrance.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/plugin/cube/Cube.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/plugin/cube/scrambles/Scrambles.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/codemzt/toppahs/plugin/wca/WcaResultGet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Switch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/codemzt/toppahs/test/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,14 +44,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1sVBPoawkaKZ1Ux0KOvZymzvbfM" />
   <component name="ProjectLevelVcsManager">
@@ -439,6 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1620947894215</updated>
     </task>
+    <task id="LOCAL-00001" summary="项目重构，底层基本完成">
+      <created>1620955465466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620955465506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目重构，底层基本完成" />
