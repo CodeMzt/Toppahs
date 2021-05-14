@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 # 说明
-本项目基于[mirai](https://github.com/mamoe/mirai)框架开发，运用双语言（Kotlin&C++）编写，采用[MIT](https://github.com/CodeMzt/Toppahs/blob/master/LICENSE)开源
+本项目基于[mirai](https://github.com/mamoe/mirai)框架开发，运用双语言（Kotlin&C++）编写，采用```MIT```[许可](https://github.com/CodeMzt/Toppahs/blob/master/LICENSE)开源
 
 本项目基本全开源，可能有少部分由于未整理完未开源，敬请期待
 >C++部分的编写基于[MiraiCP](https://github.com/Nambers/MiraiCP)
@@ -40,9 +40,18 @@ mirai需要openjdk而不是甲骨文的jdk,如下载openjdk15/openjdk11
 服务,自己部署服务
 ## 3 使用
 ### 1.克隆
- 克隆此仓库，直接克隆或
+ 克隆此仓库
+ 
+ · 直接克隆
+
+ · CIL
 ```
 > gh repo clone CodeMzt/Toppahs
+```
+
+ · GIT BUSH
+```
+$ git clone git@github.com:CodeMzt/Toppahs.git
 ```
 >如果仅是使用可以直接前往[Releases](https://github.com/CodeMzt/Toppahs/releases)下载jar包，并跳过第2、3步
 ### 2.配置
