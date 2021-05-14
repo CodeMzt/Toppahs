@@ -8,7 +8,7 @@ public class TranslatePlugin {
     public boolean onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("翻译")){
-            JavaPluginMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
+            Toppahs.INSTANCE.getLogger().info(this.getClass().getSimpleName());
             return true;
         }
         return false;

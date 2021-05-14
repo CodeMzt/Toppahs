@@ -8,11 +8,11 @@ public class GroupAdminPlugin {
     public boolean onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("t")||message.startsWith("k")){
-            JavaPluginMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
+            Toppahs.INSTANCE.getLogger().info(this.getClass().getSimpleName());
             return true;
         }
         if(message.startsWith("ban")){
-            JavaPluginMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
+            Toppahs.INSTANCE.getLogger().info(this.getClass().getSimpleName());
             return true;
         }
         return false;

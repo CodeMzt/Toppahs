@@ -4,31 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f19f9438-2bcf-4b29-8225-e7491cbb0d0f" name="默认变更列表" comment="项目重构，底层基本完成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f19f9438-2bcf-4b29-8225-e7491cbb0d0f" name="默认变更列表" comment="监听部分完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/dao/DataProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/dao/DataProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/jdbc/Mysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/jdbc/Mysql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/JavaPluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/Toppahs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/annotations/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/net.mamoe.mirai.console.plugin.jvm.JvmPlugin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620955465506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="监听部分完成">
+      <created>1620987457878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620987457878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目重构，底层基本完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目重构，底层基本完成" />
+    <MESSAGE value="监听部分完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="监听部分完成" />
   </component>
 </project>

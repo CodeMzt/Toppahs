@@ -8,7 +8,7 @@ public class WcaPlugin {
     public boolean onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("wca")){
-            JavaPluginMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
+            Toppahs.INSTANCE.getLogger().info(this.getClass().getSimpleName());
             return true;
         }
         return false;

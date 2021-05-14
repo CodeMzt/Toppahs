@@ -37,7 +37,7 @@ public class ScramblesPlugin {
                         message.indexOf(' ')!=-1?message.indexOf(' '):message.length()
                 )
         )>=0){
-            JavaPluginMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
+            Toppahs.INSTANCE.getLogger().info(this.getClass().getSimpleName());
             return true;
         }
         return false;

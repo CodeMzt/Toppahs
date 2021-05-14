@@ -4,6 +4,8 @@ import indi.mzt.toppahs.plugin.annotations.*;
 import net.mamoe.mirai.event.events.*;
 
 public class PluginHome {
+    //这里集合了所有功能，需要时只需添加相应前缀与功能名，再转到对应的实现方法
+    
     @Switch("Auth")
     @Prefix(".")
     public boolean authPlugin(GroupMessageEvent g){

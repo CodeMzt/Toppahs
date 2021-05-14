@@ -1,5 +1,6 @@
 package indi.mzt.toppahs.config;
 
+//服务、api的配置
 public class ServiceConfig {
     public static final String CUBING="https://cubingchina.com";
     public static final String CUBE="http://localhost:12014";
