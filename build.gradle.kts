@@ -22,6 +22,7 @@ dependencies{
     implementation("org.apache.xmlgraphics:batik-transcoder:$xmlgraphics_version")
     implementation("org.apache.xmlgraphics:batik-codec:$xmlgraphics_version")
     implementation("org.worldcubeassociation.tnoodle:lib-scrambles:$scramble_version")
+    implementation("org.json:json:20210307")
 }
 tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>{
     archiveFileName.set("${baseName}.${extension}")

@@ -68,7 +68,7 @@ public class PluginHome {
             Class<?> cl=obj.getClass();
             for(Method m: cl.getDeclaredMethods()){
                 //有前缀注解，即指令
-                if(m.getAnnotation(Prefix.class)!=null&&m.getAnnotation(Prefix.class).value()==prefix.toString())
+                if(m.getAnnotation(Prefix.class)!=null&&m.getAnnotation(Prefix.class).value().charAt(0)==prefix)
                     //分配职责
                     switch(m.getName()){
                     case "onGroupCommand":m.invoke(obj,gP);break;

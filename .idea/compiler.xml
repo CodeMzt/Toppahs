@@ -3,4 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Toppahs.main" options="--add-exports jdk.internal.vm.compiler/org.graalvm.compiler.serviceprovider=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

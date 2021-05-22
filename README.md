@@ -36,8 +36,7 @@ mirai需要openjdk而不是甲骨文的jdk,如下载openjdk15/openjdk11
 
 配置[mcl](https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md#%E4%BD%BF%E7%94%A8%E7%BA%AF%E6%8E%A7%E5%88%B6%E5%8F%B0%E7%89%88%E6%9C%AC)，推荐使用纯控制台
 ## 2 服务部署
-目前此项目只用到了[scambles](https://github.com/CuberBot/scramble-server)
-服务,自己部署服务
+暂无使用服务
 ## 3 使用
 ### 1.克隆
  克隆此仓库
@@ -88,6 +87,4 @@ QQ魔方机器人，提供：生成打乱（1~17、minx......），wca成绩查�
 - [x] 天气(Weather)
 - [ ] 群管(Admin)
 # 鸣谢
-感谢框架开发团队 [@Mamoe Technologies](https://github.com/mamoe) 与C++SDK开发者 [@Nambers](https://github.com/Nambers)                                                    
-感谢打乱服务的提供者 [@lz1998](https://github.com/lz1998)
-# Toppahs
+感谢框架开发团队 [@Mamoe Technologies](https://github.com/mamoe) 与C++SDK开发者 [@Nambers](https://github.com/Nambers)

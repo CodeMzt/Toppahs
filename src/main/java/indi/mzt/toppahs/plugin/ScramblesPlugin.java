@@ -1,6 +1,5 @@
 package indi.mzt.toppahs.plugin;
 import indi.mzt.toppahs.main.annotations.Plugin;
-import indi.mzt.toppahs.main.useKt;
 import indi.mzt.toppahs.plugin.annotations.Prefix;
 import indi.mzt.toppahs.plugin.annotations.Switch;
 import indi.mzt.toppahs.main.ToppahsMain;
@@ -8,12 +7,8 @@ import indi.mzt.toppahs.service.ScramblesService;
 
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.message.data.EmptyMessageChain;
-import net.mamoe.mirai.message.data.Message;
 import net.mamoe.mirai.message.data.MessageChain;
 import net.mamoe.mirai.utils.ExternalResource;
-
-import java.util.Arrays;
-
 
 @Plugin
 @Switch("Scrambles")
@@ -77,7 +72,7 @@ public class ScramblesPlugin {
     };
     @Prefix(".")
     public boolean onGroupCommand(GroupMessageEvent g){
-        var mir=ToppahsMain.INSTANCE;
+        ToppahsMain mir=ToppahsMain.INSTANCE;
         String message=g.getMessage().contentToString().substring(1);
         String type=message
                 .substring(
@@ -95,7 +90,7 @@ public class ScramblesPlugin {
             ScramblesService scramble= TYPE2[p/2];
             result=result.plus(scramble.getScramble());
             scramble.drawScramble();
-            result=result.plus(g.getGroup().uploadImage(useKt.INSTANCE.getExternalResource(scramble.getPuzzleImage())));
+            result=result.plus(g.getGroup().uploadImage(ExternalResource.create(scramble.getPuzzleImage())));
             g.getGroup().sendMessage(result);
             return true;
         }
