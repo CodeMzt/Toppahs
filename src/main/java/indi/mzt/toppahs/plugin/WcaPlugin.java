@@ -12,12 +12,12 @@ import net.mamoe.mirai.event.events.GroupMessageEvent;
 public class WcaPlugin {
     public WcaPlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onGroupCommand(GroupMessageEvent g){
+    public void onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("wca")){
             ToppahsMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
-            return true;
+
         }
-        return false;
+
     }
 }

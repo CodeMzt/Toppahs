@@ -11,7 +11,7 @@ import net.mamoe.mirai.event.events.MemberLeaveEvent;
 public class LeavePlugin {
     public LeavePlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onMemberLeavingEvent(MemberLeaveEvent g){
-        return false;
+    public void onMemberLeavingEvent(MemberLeaveEvent g){
+
     }
 }

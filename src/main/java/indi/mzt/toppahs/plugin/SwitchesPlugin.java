@@ -12,16 +12,16 @@ import net.mamoe.mirai.event.events.GroupMessageEvent;
 public class SwitchesPlugin {
     public SwitchesPlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onGroupCommand(GroupMessageEvent g){
+    public void onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("启用")){
             ToppahsMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
-            return true;
+
         }
         if(message.startsWith("停用")){
             ToppahsMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
-            return true;
+
         }
-        return false;
+
     }
 }

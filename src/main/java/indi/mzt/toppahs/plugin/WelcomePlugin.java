@@ -11,7 +11,7 @@ import net.mamoe.mirai.event.events.MemberJoinEvent;
 public class WelcomePlugin {
     public WelcomePlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onMemberJoinEvent(MemberJoinEvent g){
-        return false;
+    public void onMemberJoinEvent(MemberJoinEvent g){
+
     }
 }

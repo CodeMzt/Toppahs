@@ -71,7 +71,7 @@ public class ScramblesPlugin {
             ScramblesService.SKEWB
     };
     @Prefix(".")
-    public boolean onGroupCommand(GroupMessageEvent g){
+    public void onGroupCommand(GroupMessageEvent g){
         ToppahsMain mir=ToppahsMain.INSTANCE;
         String message=g.getMessage().contentToString().substring(1);
         String type=message
@@ -92,8 +92,8 @@ public class ScramblesPlugin {
             scramble.drawScramble();
             result=result.plus(g.getGroup().uploadImage(ExternalResource.create(scramble.getPuzzleImage())));
             g.getGroup().sendMessage(result);
-            return true;
+
         }
-        return false;
+
     }
 }

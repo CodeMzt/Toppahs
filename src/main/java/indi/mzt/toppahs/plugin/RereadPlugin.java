@@ -11,7 +11,7 @@ import net.mamoe.mirai.event.events.GroupMessageEvent;
 public class RereadPlugin {
     public RereadPlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onGroupCommand(GroupMessageEvent g){
-        return false;
+    public void onGroupCommand(GroupMessageEvent g){
+
     }
 }

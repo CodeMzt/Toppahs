@@ -13,16 +13,16 @@ public class AuthPlugin {
     //注册监听
     public AuthPlugin(){PluginHome.eventListener(this);}
     @Prefix(".")
-    public boolean onGroupCommand(GroupMessageEvent g){
+    public void onGroupCommand(GroupMessageEvent g){
         String message=g.getMessage().contentToString().substring(1);
         if(message.startsWith("授权+")){
             ToppahsMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
-            return true;
+
         }
         if(message.startsWith("授权-")){
             ToppahsMain.INSTANCE.getLogger().info(this.getClass().getSimpleName());
-            return true;
+
         }
-        return false;
+
     }
 }
