@@ -17,6 +17,7 @@ public class PluginHome {
     static MemberJoinEvent mJ=null;
     static MemberLeaveEvent mL=null;
 
+    static BasicPlugin basic;
     static AuthPlugin auth;
     static CompetitionPlugin comp;
     static ExpressPlugin exp;
@@ -33,6 +34,7 @@ public class PluginHome {
     public PluginHome(GroupMessageEvent a){
         gP=a;
         //群消息相关功能，利用构造方法注册监听
+        basic=new BasicPlugin();
         auth=new AuthPlugin();
         comp=new CompetitionPlugin();
         exp=new ExpressPlugin();

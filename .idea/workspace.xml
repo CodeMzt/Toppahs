@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b73cad40-da95-4e0b-9fe7-579582ac4bfd" name="默认变更列表" comment="近期赛事功能基本实现，优化、修复bug">
+    <list default="true" id="b73cad40-da95-4e0b-9fe7-579582ac4bfd" name="默认变更列表" comment="实现一些功能，优化、修复bug">
+      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ToppahsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/BasicPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/RunMiraiKt.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/config/ServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/AuthPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/CompetitionPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ExpressPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/GroupAdminPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/LeavePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/RereadPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/ScramblesPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/SwitchesPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/TranslatePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/PluginHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WcaPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WeatherPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/plugin/WelcomePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/CompetitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/CompetitionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/ExpressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/ExpressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/TranslateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/TranslateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WcaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indi/mzt/toppahs/service/WcaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/RunMirai.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +56,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Toppahs" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -79,11 +71,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="Kotlin Class" />
         <option value="package-info" />
         <option value="Kotlin Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,7 +106,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Gradle.Toppahs [buildPlugin]">
     <configuration name="Toppahs [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -203,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621680782073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实现一些功能，优化、修复bug">
+      <created>1621733864569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621733864629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +220,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="打乱功能基本实现，优化、修复bug" />
     <MESSAGE value="近期赛事功能基本实现，优化、修复bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="近期赛事功能基本实现，优化、修复bug" />
+    <MESSAGE value="实现一些功能，优化、修复bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现一些功能，优化、修复bug" />
   </component>
 </project>
